@@ -67,6 +67,18 @@
     .banner-text-area p {
         font-size: 13px;
     }
+
+    .banner-1 {
+        background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../img/banner-one.jpg) no-repeat center;
+    }
+
+    .banner-2 {
+        background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(../img/alt-banner.jpg) no-repeat center;
+    }
+
+    .banner-3 {
+        background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../img/banner-three.jpg) no-repeat center;
+    }
 }
 
 @media (max-width: 374px) {
