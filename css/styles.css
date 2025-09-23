@@ -535,3 +535,127 @@ body p,a {
 }
 
 /***** End Other Home Sections Styles *****/
+
+/***** Footer Styles *****/ 
+
+.footer-area {
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(../img/footer-bg.jpg) no-repeat center;
+  min-height: 400px;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.footer-area .footer-logo {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  /* font-family: "PT Sans", serif; */
+}
+
+.footer-textarea {
+  padding-top: 20px;
+}
+
+.footer-textarea p {
+  color: #b9b9b9;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  color: white;
+  font-weight: 400;
+}
+
+.footer-link:hover {
+  color: #34C759;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.footer-list li a {
+  color: white;
+  text-decoration: none;
+  line-height: 2.3em;
+  font-size: 14px;
+  color: #b9b9b9;
+  font-weight: 400;
+}
+
+.footer-list li a:hover {
+  color: #34C759;
+}
+
+.news-group .form-control {
+  background: transparent;
+  border-radius: 0px;
+  color: #b9b9b9;
+  font-size: 13.5px;
+}
+
+.news-group .form-control:focus {
+  border-color: #34C759;
+  box-shadow: none;
+}
+
+.news-group .form-control::placeholder {
+  color: #b9b9b9;
+  font-size: 13.5px;
+}
+
+.news-group .btn-news {
+  background: #34C759;
+  border-radius: 0px;
+  color: white;
+  border-radius: 0px;
+  border: 1px solid #85C121;
+}
+
+.news-group .btn-news:hover {
+  color: #34C759;
+  background: transparent;
+}
+
+.footer-links a {
+  padding-right: 12px;
+  color: white;
+}
+
+.footer-links a:hover {
+  color: #34C759;
+}
+
+.copyright-area {
+  padding-top: 80px;
+  color: #cccccc;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #027CC7;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+}
+
+#myBtn:hover {
+  background-color: #012d4b;
+}
+
+/***** End Footer Styles *****/
