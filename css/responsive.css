@@ -79,6 +79,19 @@
     .banner-3 {
         background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../img/banner-three.jpg) no-repeat center;
     }
+
+    .about-pic-area {
+        padding-left: 70px;
+    }
+
+    .img-abs {
+        width: 250px;
+    }
+
+    .top-right-overlay {
+        border-top: 15px solid #34C759;
+        border-right: 15px solid #34C759;
+    }
 }
 
 @media (max-width: 374px) {

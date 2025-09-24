@@ -534,6 +534,46 @@ body p,a {
   background: white;
 }
 
+.stat-area .stat-icon i {
+  color: white;
+  background: linear-gradient(135deg, #34C759, #28A745);
+  padding: 12px 15px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.stat-area h3 {
+  margin-top: 10px;
+}
+
+.about-pic-area {
+  position: relative;
+  width: 100%;
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.img-abs {
+  position: absolute;
+  width: 300px;
+  bottom: -50px;
+  left: 0px;
+  border: 15px solid white;
+}
+
+.top-right-overlay {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  height: 100px;
+  background: white;
+  z-index: -1;
+  border-top: 18px solid #34C759;
+  border-right: 18px solid #34C759;
+}
+
 /***** End Other Home Sections Styles *****/
 
 /***** Footer Styles *****/ 
