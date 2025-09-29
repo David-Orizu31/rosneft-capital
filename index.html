@@ -30,11 +30,13 @@
     <link rel="stylesheet" href="css/animate.css">
     <!-- FancyBox CSS -->
     <link rel="stylesheet" href="fancybox-master/fancybox-master/dist/jquery.fancybox.min.css">
+    <!-- Splide CSS -->
+    <!-- <link rel="stylesheet" href="css/splide.min.css"> -->
 </head>
 
 <body>
 
-    
+
     <!-- Hidden Google Translate element -->
     <div id="google_translate_element" style="display:none;"></div>
 
@@ -67,8 +69,8 @@
             <a class="navbar-brand" href="#">
                 <img src="img/rosneft-logo.png" alt="" width="150">
             </a>
-            <button class="navbar-toggler btn-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar">
+            <button class="navbar-toggler btn-toggle" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="la la-bars"></span>
             </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
@@ -105,126 +107,128 @@
                 </div>
             </div>
 
-                    <!-- ========== Start Google Translate Languages ========== -->
-                    <div class="dropdown">
-                        <a class="btn btn-translate" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="icofont-globe"></span>
-                            <span class="d-lg-inline d-none">Select Language</span>
-                            <span class="la la-angle-down"></span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="triggerId" id="languageList" style="max-height: 300px; overflow-y: auto;">
-                            <a class="dropdown-item" href="#" data-lang="af">Afrikaans</a>
-                            <a class="dropdown-item" href="#" data-lang="sq">Albanian</a>
-                            <a class="dropdown-item" href="#" data-lang="am">Amharic</a>
-                            <a class="dropdown-item" href="#" data-lang="ar">Arabic</a>
-                            <a class="dropdown-item" href="#" data-lang="hy">Armenian</a>
-                            <a class="dropdown-item" href="#" data-lang="az">Azerbaijani</a>
-                            <a class="dropdown-item" href="#" data-lang="eu">Basque</a>
-                            <a class="dropdown-item" href="#" data-lang="be">Belarusian</a>
-                            <a class="dropdown-item" href="#" data-lang="bn">Bengali</a>
-                            <a class="dropdown-item" href="#" data-lang="bs">Bosnian</a>
-                            <a class="dropdown-item" href="#" data-lang="bg">Bulgarian</a>
-                            <a class="dropdown-item" href="#" data-lang="ca">Catalan</a>
-                            <a class="dropdown-item" href="#" data-lang="ceb">Cebuano</a>
-                            <a class="dropdown-item" href="#" data-lang="ny">Chichewa</a>
-                            <a class="dropdown-item" href="#" data-lang="zh-CN">Chinese (Simplified)</a>
-                            <a class="dropdown-item" href="#" data-lang="zh-TW">Chinese (Traditional)</a>
-                            <a class="dropdown-item" href="#" data-lang="co">Corsican</a>
-                            <a class="dropdown-item" href="#" data-lang="hr">Croatian</a>
-                            <a class="dropdown-item" href="#" data-lang="cs">Czech</a>
-                            <a class="dropdown-item" href="#" data-lang="da">Danish</a>
-                            <a class="dropdown-item" href="#" data-lang="nl">Dutch</a>
-                            <a class="dropdown-item" href="#" data-lang="en">English</a>
-                            <a class="dropdown-item" href="#" data-lang="eo">Esperanto</a>
-                            <a class="dropdown-item" href="#" data-lang="et">Estonian</a>
-                            <a class="dropdown-item" href="#" data-lang="fi">Finnish</a>
-                            <a class="dropdown-item" href="#" data-lang="fr">French</a>
-                            <a class="dropdown-item" href="#" data-lang="fy">Frisian</a>
-                            <a class="dropdown-item" href="#" data-lang="gl">Galician</a>
-                            <a class="dropdown-item" href="#" data-lang="ka">Georgian</a>
-                            <a class="dropdown-item" href="#" data-lang="de">German</a>
-                            <a class="dropdown-item" href="#" data-lang="el">Greek</a>
-                            <a class="dropdown-item" href="#" data-lang="gu">Gujarati</a>
-                            <a class="dropdown-item" href="#" data-lang="ht">Haitian Creole</a>
-                            <a class="dropdown-item" href="#" data-lang="ha">Hausa</a>
-                            <a class="dropdown-item" href="#" data-lang="haw">Hawaiian</a>
-                            <a class="dropdown-item" href="#" data-lang="he">Hebrew</a>
-                            <a class="dropdown-item" href="#" data-lang="hi">Hindi</a>
-                            <a class="dropdown-item" href="#" data-lang="hmn">Hmong</a>
-                            <a class="dropdown-item" href="#" data-lang="hu">Hungarian</a>
-                            <a class="dropdown-item" href="#" data-lang="is">Icelandic</a>
-                            <a class="dropdown-item" href="#" data-lang="ig">Igbo</a>
-                            <a class="dropdown-item" href="#" data-lang="id">Indonesian</a>
-                            <a class="dropdown-item" href="#" data-lang="ga">Irish</a>
-                            <a class="dropdown-item" href="#" data-lang="it">Italian</a>
-                            <a class="dropdown-item" href="#" data-lang="ja">Japanese</a>
-                            <a class="dropdown-item" href="#" data-lang="jw">Javanese</a>
-                            <a class="dropdown-item" href="#" data-lang="kn">Kannada</a>
-                            <a class="dropdown-item" href="#" data-lang="kk">Kazakh</a>
-                            <a class="dropdown-item" href="#" data-lang="km">Khmer</a>
-                            <a class="dropdown-item" href="#" data-lang="rw">Kinyarwanda</a>
-                            <a class="dropdown-item" href="#" data-lang="ko">Korean</a>
-                            <a class="dropdown-item" href="#" data-lang="ku">Kurdish (Kurmanji)</a>
-                            <a class="dropdown-item" href="#" data-lang="ky">Kyrgyz</a>
-                            <a class="dropdown-item" href="#" data-lang="lo">Lao</a>
-                            <a class="dropdown-item" href="#" data-lang="la">Latin</a>
-                            <a class="dropdown-item" href="#" data-lang="lv">Latvian</a>
-                            <a class="dropdown-item" href="#" data-lang="lt">Lithuanian</a>
-                            <a class="dropdown-item" href="#" data-lang="lb">Luxembourgish</a>
-                            <a class="dropdown-item" href="#" data-lang="mk">Macedonian</a>
-                            <a class="dropdown-item" href="#" data-lang="mg">Malagasy</a>
-                            <a class="dropdown-item" href="#" data-lang="ms">Malay</a>
-                            <a class="dropdown-item" href="#" data-lang="ml">Malayalam</a>
-                            <a class="dropdown-item" href="#" data-lang="mt">Maltese</a>
-                            <a class="dropdown-item" href="#" data-lang="mi">Maori</a>
-                            <a class="dropdown-item" href="#" data-lang="mr">Marathi</a>
-                            <a class="dropdown-item" href="#" data-lang="mn">Mongolian</a>
-                            <a class="dropdown-item" href="#" data-lang="my">Myanmar (Burmese)</a>
-                            <a class="dropdown-item" href="#" data-lang="ne">Nepali</a>
-                            <a class="dropdown-item" href="#" data-lang="no">Norwegian</a>
-                            <a class="dropdown-item" href="#" data-lang="or">Odia (Oriya)</a>
-                            <a class="dropdown-item" href="#" data-lang="ps">Pashto</a>
-                            <a class="dropdown-item" href="#" data-lang="fa">Persian</a>
-                            <a class="dropdown-item" href="#" data-lang="pl">Polish</a>
-                            <a class="dropdown-item" href="#" data-lang="pt">Portuguese</a>
-                            <a class="dropdown-item" href="#" data-lang="pa">Punjabi</a>
-                            <a class="dropdown-item" href="#" data-lang="ro">Romanian</a>
-                            <a class="dropdown-item" href="#" data-lang="ru">Russian</a>
-                            <a class="dropdown-item" href="#" data-lang="sm">Samoan</a>
-                            <a class="dropdown-item" href="#" data-lang="gd">Scots Gaelic</a>
-                            <a class="dropdown-item" href="#" data-lang="sr">Serbian</a>
-                            <a class="dropdown-item" href="#" data-lang="st">Sesotho</a>
-                            <a class="dropdown-item" href="#" data-lang="sn">Shona</a>
-                            <a class="dropdown-item" href="#" data-lang="sd">Sindhi</a>
-                            <a class="dropdown-item" href="#" data-lang="si">Sinhala</a>
-                            <a class="dropdown-item" href="#" data-lang="sk">Slovak</a>
-                            <a class="dropdown-item" href="#" data-lang="sl">Slovenian</a>
-                            <a class="dropdown-item" href="#" data-lang="so">Somali</a>
-                            <a class="dropdown-item" href="#" data-lang="es">Spanish</a>
-                            <a class="dropdown-item" href="#" data-lang="su">Sundanese</a>
-                            <a class="dropdown-item" href="#" data-lang="sw">Swahili</a>
-                            <a class="dropdown-item" href="#" data-lang="sv">Swedish</a>
-                            <a class="dropdown-item" href="#" data-lang="tl">Tagalog (Filipino)</a>
-                            <a class="dropdown-item" href="#" data-lang="tg">Tajik</a>
-                            <a class="dropdown-item" href="#" data-lang="ta">Tamil</a>
-                            <a class="dropdown-item" href="#" data-lang="tt">Tatar</a>
-                            <a class="dropdown-item" href="#" data-lang="te">Telugu</a>
-                            <a class="dropdown-item" href="#" data-lang="th">Thai</a>
-                            <a class="dropdown-item" href="#" data-lang="tr">Turkish</a>
-                            <a class="dropdown-item" href="#" data-lang="tk">Turkmen</a>
-                            <a class="dropdown-item" href="#" data-lang="uk">Ukrainian</a>
-                            <a class="dropdown-item" href="#" data-lang="ur">Urdu</a>
-                            <a class="dropdown-item" href="#" data-lang="ug">Uyghur</a>
-                            <a class="dropdown-item" href="#" data-lang="uz">Uzbek</a>
-                            <a class="dropdown-item" href="#" data-lang="vi">Vietnamese</a>
-                            <a class="dropdown-item" href="#" data-lang="cy">Welsh</a>
-                            <a class="dropdown-item" href="#" data-lang="xh">Xhosa</a>
-                            <a class="dropdown-item" href="#" data-lang="yi">Yiddish</a>
-                            <a class="dropdown-item" href="#" data-lang="yo">Yoruba</a>
-                            <a class="dropdown-item" href="#" data-lang="zu">Zulu</a>
-                        </div>
-                    </div>
-                    <!-- ========== End Google Translate Languages ========== -->
+            <!-- ========== Start Google Translate Languages ========== -->
+            <div class="dropdown">
+                <a class="btn btn-translate" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <span class="icofont-globe"></span>
+                    <span class="d-lg-inline d-none">Select Language</span>
+                    <span class="la la-angle-down"></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="triggerId" id="languageList"
+                    style="max-height: 300px; overflow-y: auto;">
+                    <a class="dropdown-item" href="#" data-lang="af">Afrikaans</a>
+                    <a class="dropdown-item" href="#" data-lang="sq">Albanian</a>
+                    <a class="dropdown-item" href="#" data-lang="am">Amharic</a>
+                    <a class="dropdown-item" href="#" data-lang="ar">Arabic</a>
+                    <a class="dropdown-item" href="#" data-lang="hy">Armenian</a>
+                    <a class="dropdown-item" href="#" data-lang="az">Azerbaijani</a>
+                    <a class="dropdown-item" href="#" data-lang="eu">Basque</a>
+                    <a class="dropdown-item" href="#" data-lang="be">Belarusian</a>
+                    <a class="dropdown-item" href="#" data-lang="bn">Bengali</a>
+                    <a class="dropdown-item" href="#" data-lang="bs">Bosnian</a>
+                    <a class="dropdown-item" href="#" data-lang="bg">Bulgarian</a>
+                    <a class="dropdown-item" href="#" data-lang="ca">Catalan</a>
+                    <a class="dropdown-item" href="#" data-lang="ceb">Cebuano</a>
+                    <a class="dropdown-item" href="#" data-lang="ny">Chichewa</a>
+                    <a class="dropdown-item" href="#" data-lang="zh-CN">Chinese (Simplified)</a>
+                    <a class="dropdown-item" href="#" data-lang="zh-TW">Chinese (Traditional)</a>
+                    <a class="dropdown-item" href="#" data-lang="co">Corsican</a>
+                    <a class="dropdown-item" href="#" data-lang="hr">Croatian</a>
+                    <a class="dropdown-item" href="#" data-lang="cs">Czech</a>
+                    <a class="dropdown-item" href="#" data-lang="da">Danish</a>
+                    <a class="dropdown-item" href="#" data-lang="nl">Dutch</a>
+                    <a class="dropdown-item" href="#" data-lang="en">English</a>
+                    <a class="dropdown-item" href="#" data-lang="eo">Esperanto</a>
+                    <a class="dropdown-item" href="#" data-lang="et">Estonian</a>
+                    <a class="dropdown-item" href="#" data-lang="fi">Finnish</a>
+                    <a class="dropdown-item" href="#" data-lang="fr">French</a>
+                    <a class="dropdown-item" href="#" data-lang="fy">Frisian</a>
+                    <a class="dropdown-item" href="#" data-lang="gl">Galician</a>
+                    <a class="dropdown-item" href="#" data-lang="ka">Georgian</a>
+                    <a class="dropdown-item" href="#" data-lang="de">German</a>
+                    <a class="dropdown-item" href="#" data-lang="el">Greek</a>
+                    <a class="dropdown-item" href="#" data-lang="gu">Gujarati</a>
+                    <a class="dropdown-item" href="#" data-lang="ht">Haitian Creole</a>
+                    <a class="dropdown-item" href="#" data-lang="ha">Hausa</a>
+                    <a class="dropdown-item" href="#" data-lang="haw">Hawaiian</a>
+                    <a class="dropdown-item" href="#" data-lang="he">Hebrew</a>
+                    <a class="dropdown-item" href="#" data-lang="hi">Hindi</a>
+                    <a class="dropdown-item" href="#" data-lang="hmn">Hmong</a>
+                    <a class="dropdown-item" href="#" data-lang="hu">Hungarian</a>
+                    <a class="dropdown-item" href="#" data-lang="is">Icelandic</a>
+                    <a class="dropdown-item" href="#" data-lang="ig">Igbo</a>
+                    <a class="dropdown-item" href="#" data-lang="id">Indonesian</a>
+                    <a class="dropdown-item" href="#" data-lang="ga">Irish</a>
+                    <a class="dropdown-item" href="#" data-lang="it">Italian</a>
+                    <a class="dropdown-item" href="#" data-lang="ja">Japanese</a>
+                    <a class="dropdown-item" href="#" data-lang="jw">Javanese</a>
+                    <a class="dropdown-item" href="#" data-lang="kn">Kannada</a>
+                    <a class="dropdown-item" href="#" data-lang="kk">Kazakh</a>
+                    <a class="dropdown-item" href="#" data-lang="km">Khmer</a>
+                    <a class="dropdown-item" href="#" data-lang="rw">Kinyarwanda</a>
+                    <a class="dropdown-item" href="#" data-lang="ko">Korean</a>
+                    <a class="dropdown-item" href="#" data-lang="ku">Kurdish (Kurmanji)</a>
+                    <a class="dropdown-item" href="#" data-lang="ky">Kyrgyz</a>
+                    <a class="dropdown-item" href="#" data-lang="lo">Lao</a>
+                    <a class="dropdown-item" href="#" data-lang="la">Latin</a>
+                    <a class="dropdown-item" href="#" data-lang="lv">Latvian</a>
+                    <a class="dropdown-item" href="#" data-lang="lt">Lithuanian</a>
+                    <a class="dropdown-item" href="#" data-lang="lb">Luxembourgish</a>
+                    <a class="dropdown-item" href="#" data-lang="mk">Macedonian</a>
+                    <a class="dropdown-item" href="#" data-lang="mg">Malagasy</a>
+                    <a class="dropdown-item" href="#" data-lang="ms">Malay</a>
+                    <a class="dropdown-item" href="#" data-lang="ml">Malayalam</a>
+                    <a class="dropdown-item" href="#" data-lang="mt">Maltese</a>
+                    <a class="dropdown-item" href="#" data-lang="mi">Maori</a>
+                    <a class="dropdown-item" href="#" data-lang="mr">Marathi</a>
+                    <a class="dropdown-item" href="#" data-lang="mn">Mongolian</a>
+                    <a class="dropdown-item" href="#" data-lang="my">Myanmar (Burmese)</a>
+                    <a class="dropdown-item" href="#" data-lang="ne">Nepali</a>
+                    <a class="dropdown-item" href="#" data-lang="no">Norwegian</a>
+                    <a class="dropdown-item" href="#" data-lang="or">Odia (Oriya)</a>
+                    <a class="dropdown-item" href="#" data-lang="ps">Pashto</a>
+                    <a class="dropdown-item" href="#" data-lang="fa">Persian</a>
+                    <a class="dropdown-item" href="#" data-lang="pl">Polish</a>
+                    <a class="dropdown-item" href="#" data-lang="pt">Portuguese</a>
+                    <a class="dropdown-item" href="#" data-lang="pa">Punjabi</a>
+                    <a class="dropdown-item" href="#" data-lang="ro">Romanian</a>
+                    <a class="dropdown-item" href="#" data-lang="ru">Russian</a>
+                    <a class="dropdown-item" href="#" data-lang="sm">Samoan</a>
+                    <a class="dropdown-item" href="#" data-lang="gd">Scots Gaelic</a>
+                    <a class="dropdown-item" href="#" data-lang="sr">Serbian</a>
+                    <a class="dropdown-item" href="#" data-lang="st">Sesotho</a>
+                    <a class="dropdown-item" href="#" data-lang="sn">Shona</a>
+                    <a class="dropdown-item" href="#" data-lang="sd">Sindhi</a>
+                    <a class="dropdown-item" href="#" data-lang="si">Sinhala</a>
+                    <a class="dropdown-item" href="#" data-lang="sk">Slovak</a>
+                    <a class="dropdown-item" href="#" data-lang="sl">Slovenian</a>
+                    <a class="dropdown-item" href="#" data-lang="so">Somali</a>
+                    <a class="dropdown-item" href="#" data-lang="es">Spanish</a>
+                    <a class="dropdown-item" href="#" data-lang="su">Sundanese</a>
+                    <a class="dropdown-item" href="#" data-lang="sw">Swahili</a>
+                    <a class="dropdown-item" href="#" data-lang="sv">Swedish</a>
+                    <a class="dropdown-item" href="#" data-lang="tl">Tagalog (Filipino)</a>
+                    <a class="dropdown-item" href="#" data-lang="tg">Tajik</a>
+                    <a class="dropdown-item" href="#" data-lang="ta">Tamil</a>
+                    <a class="dropdown-item" href="#" data-lang="tt">Tatar</a>
+                    <a class="dropdown-item" href="#" data-lang="te">Telugu</a>
+                    <a class="dropdown-item" href="#" data-lang="th">Thai</a>
+                    <a class="dropdown-item" href="#" data-lang="tr">Turkish</a>
+                    <a class="dropdown-item" href="#" data-lang="tk">Turkmen</a>
+                    <a class="dropdown-item" href="#" data-lang="uk">Ukrainian</a>
+                    <a class="dropdown-item" href="#" data-lang="ur">Urdu</a>
+                    <a class="dropdown-item" href="#" data-lang="ug">Uyghur</a>
+                    <a class="dropdown-item" href="#" data-lang="uz">Uzbek</a>
+                    <a class="dropdown-item" href="#" data-lang="vi">Vietnamese</a>
+                    <a class="dropdown-item" href="#" data-lang="cy">Welsh</a>
+                    <a class="dropdown-item" href="#" data-lang="xh">Xhosa</a>
+                    <a class="dropdown-item" href="#" data-lang="yi">Yiddish</a>
+                    <a class="dropdown-item" href="#" data-lang="yo">Yoruba</a>
+                    <a class="dropdown-item" href="#" data-lang="zu">Zulu</a>
+                </div>
+            </div>
+            <!-- ========== End Google Translate Languages ========== -->
 
         </div>
     </nav>
@@ -297,6 +301,9 @@
 
         </div>
     </div>
+    <script src="https://widgets.coingecko.com/gecko-coin-price-marquee-widget.js"></script>
+    <gecko-coin-price-marquee-widget locale="en" dark-mode="true" outlined="true" coin-ids=""
+        initial-currency="usd"></gecko-coin-price-marquee-widget>
     <!-- ========== End Homepage Banner Area ========== -->
 
     <!-- ========== Start Plans Section ========== -->
@@ -418,65 +425,304 @@
 
     <!-- ========== Start About Section ========== -->
     <section class="section-padding">
-       <div class="container">
-        <div class="row">
-            <div class="col-lg-7">
-               <div class="about-text-area">
-                <h6 class="text-uppercase text-inter font-600 text-bright-green"># Who we are</h6>
-                <h1 class="text-oswald font-700 text-dark-blue mb-3">About Rosneft Capital</h1>
-                <p>Rosneft Capital is a leading digital asset investment company backed by Rosneft, Russia's largest oil company, founded in 1993. With a strong presence in the energy sector, Rosneft Capital leverages its expertise and resources to provide investors with unparalleled access to the world of cryptocurrency. Our company generates a significant portion of its revenue from oil and gas production, petrochemicals, lubricants, and refining operations, while also exploring opportunities in emerging industries.</p>
-                <div class="row mt-4 mb-2">
-                    <div class="col-md-3 col-6">
-                        <div class="stat-area mb-3 text-center text-md-start">
-                            <div class="stat-icon">
-                                <i class="fas fa-coins"></i>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="about-text-area">
+                        <h6 class="text-uppercase text-inter font-600 text-bright-green" data-aos="fade-right"
+                            data-aos-duration="1000"># Who we are</h6>
+                        <h1 class="text-oswald font-700 text-dark-blue mb-3" data-aos="fade-right"
+                            data-aos-duration="1000" data-aos-delay="100">About Rosneft Capital</h1>
+                        <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Rosneft Capital is a
+                            leading digital asset investment company backed by Rosneft, Russia's largest oil company,
+                            founded in 1993. With a strong presence in the energy sector, Rosneft Capital leverages its
+                            expertise and resources to provide investors with unparalleled access to the world of
+                            cryptocurrency. Our company generates a significant portion of its revenue from oil and gas
+                            production, petrochemicals, lubricants, and refining operations, while also exploring
+                            opportunities in emerging industries.</p>
+                        <div class="row mt-4 mb-2">
+                            <div class="col-md-3 col-6">
+                                <div class="stat-area mb-3 text-center text-md-start" data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="200">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-coins"></i>
+                                    </div>
+                                    <h3 class="text-montserrat font-700 text-dark-blue mb-1">$<span
+                                            class="counter">100</span>M+</h3>
+                                    <h6 class="text-black-50 font-600">Assets Managed</h6>
+                                </div>
                             </div>
-                            <h3 class="text-montserrat font-700 text-dark-blue mb-1">$<span class="counter">100</span>M+</h3>
-                            <h6 class="text-black-50 font-600">Assets Managed</h6>
+                            <div class="col-md-3 col-6">
+                                <div class="stat-area mb-3 text-center text-md-start" data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="300">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                    <h3 class="text-montserrat font-700 text-dark-blue mb-1"><span
+                                            class="counter">25,000</span>+</h3>
+                                    <h6 class="text-black-50 font-600">Active Investors</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="stat-area mb-3 text-center text-md-start" data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="400">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-chart-line"></i>
+                                    </div>
+                                    <h3 class="text-montserrat font-700 text-dark-blue mb-1">$<span
+                                            class="counter">80</span>M+</h3>
+                                    <h6 class="text-black-50 font-600">Profits Paid Out</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="stat-area mb-3 text-center text-md-start" data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="500">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-globe-americas"></i>
+                                    </div>
+                                    <h3 class="text-montserrat font-700 text-dark-blue mb-1"><span
+                                            class="counter">30</span>+</h3>
+                                    <h6 class="text-black-50 font-600">Countries Reached</h6>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <div class="stat-area mb-3 text-center text-md-start">
-                            <div class="stat-icon">
-                                <i class="fas fa-users"></i>
-                            </div>
-                            <h3 class="text-montserrat font-700 text-dark-blue mb-1"><span class="counter">25,000</span>+</h3>
-                            <h6 class="text-black-50 font-600">Active Investors</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <div class="stat-area mb-3 text-center text-md-start">
-                            <div class="stat-icon">
-                                <i class="fas fa-chart-line"></i>
-                            </div>
-                            <h3 class="text-montserrat font-700 text-dark-blue mb-1">$<span class="counter">80</span>M+</h3>
-                            <h6 class="text-black-50 font-600">Profits Paid Out</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <div class="stat-area mb-3 text-center text-md-start">
-                            <div class="stat-icon">
-                                <i class="fas fa-globe-americas"></i>
-                            </div>
-                            <h3 class="text-montserrat font-700 text-dark-blue mb-1"><span class="counter">30</span>+</h3>
-                            <h6 class="text-black-50 font-600">Countries Reached</h6>
+                        <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                            <a href="#un" class="btn btn-cta">More About Us <span
+                                    class="icofont-double-right"></span></a>
                         </div>
                     </div>
                 </div>
-                <a href="#un" class="btn btn-cta">More About Us <span class="icofont-double-right"></span></a>
-               </div>
-            </div>
-            <div class="col-lg-5 mt-lg-0 mt-5">
-               <div class="about-pic-area">
-                  <img src="img/about-pic.jpg" alt="" class="img img-fluid">
-                  <img src="img/banner-two.jpg" alt="" class="img-abs">
-                  <div class="top-right-overlay"></div>
-               </div>
+                <div class="col-lg-5 mt-lg-0 mt-5">
+                    <div class="about-pic-area">
+                        <img src="img/about-pic.jpg" alt="" class="img img-fluid" data-aos="fade-left"
+                            data-aos-duration="1000" data-aos-delay="300">
+                        <img src="img/banner-two.jpg" alt="" class="img-abs" data-aos="fade-right"
+                            data-aos-duration="1000" data-aos-delay="300">
+                        <div class="top-right-overlay" data-aos="fade-left" data-aos-duration="1000"
+                            data-aos-delay="200"></div>
+                    </div>
+                </div>
             </div>
         </div>
-       </div>
     </section>
     <!-- ========== End About Section ========== -->
+
+    <!-- ========== Start Values Area ========== -->
+    <!-- <div class="splide">
+    <div class="splide__track">
+        <ul class="splide__list">
+			<li class="splide__slide">Slide 01</li>
+			<li class="splide__slide">Slide 02</li>
+			<li class="splide__slide">Slide 03</li>
+        </ul>
+    </div>
+     -->
+    <!-- Add the progress bar element -->
+    <!-- <div class="my-slider-progress">
+        <div class="my-slider-progress-bar"></div>
+    </div>
+    </div>    -->
+    <section class="section-padding">
+        <div class="container section-padding">
+            <div class="values-slider" data-aos="fade-in" data-aos-duration="1000">
+                <div class="values-cover">
+                    <div class="values-area">
+                        <img src="img/trading-excellence.jpg" alt="" class="img-value">
+                        <div class="img-overlay"></div>
+                        <div class="values-content">
+                            <h6 class="values-header">Excellence</h6>
+                            <p class="values-text">Excellence is our standard. We ensure the best outcomes and
+                                continually improve ...</p>
+                        </div>
+                        <a href="#" class="values-link"><span class="la la-arrow-right"></span></a>
+                    </div>
+                </div>
+
+                <div class="values-cover">
+                    <div class="values-area">
+                        <img src="img/trading-safety.jpg" alt="" class="img-value">
+                        <div class="img-overlay2"></div>
+                        <div class="values-content">
+                            <h6 class="values-header">Safety</h6>
+                            <p class="values-text">We prioritize asset security and implement robust measures to protect
+                                our investors' ...</p>
+                        </div>
+                        <a href="#" class="values-link"><span class="la la-arrow-right"></span></a>
+                    </div>
+                </div>
+
+                <div class="values-cover">
+                    <div class="values-area">
+                        <img src="img/trade-integrity.jpg" alt="" class="img-value">
+                        <div class="img-overlay2"></div>
+                        <div class="values-content">
+                            <h6 class="values-header">Integrity</h6>
+                            <p class="values-text">Transparency, honesty, and accountability drives everything we do. We
+                                build trust ...</p>
+                        </div>
+                        <a href="#" class="values-link"><span class="la la-arrow-right"></span></a>
+                    </div>
+                </div>
+
+                <div class="values-cover">
+                    <div class="values-area">
+                        <img src="img/risk-management.jpg" alt="" class="img-value">
+                        <div class="img-overlay2"></div>
+                        <div class="values-content">
+                            <h6 class="values-header">Risk Management</h6>
+                            <p class="values-text">We manage risk effectively, identifying and mitigating potential
+                                threats to ensure ...</p>
+                        </div>
+                        <a href="#" class="values-link"><span class="la la-arrow-right"></span></a>
+                    </div>
+                </div>
+
+                <div class="values-cover">
+                    <div class="values-area">
+                        <img src="img/investor-focus.jpg" alt="" class="img-value">
+                        <div class="img-overlay2"></div>
+                        <div class="values-content">
+                            <h6 class="values-header">Investor Focus</h6>
+                            <p class="values-text">Creating value for investors is our top priority. We believe that our
+                                expertise and ...</p>
+                        </div>
+                        <a href="#" class="values-link"><span class="la la-arrow-right"></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Progress bar -->
+            <div class="slider-progress-bar">
+                <div class="slider-progress"></div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End Values Area ========== -->
+
+    <!-- ========== Start Investment Calculator ========== -->
+    <section class="section-padding">
+        <div class="container" data-aos="fade-in" data-aos-duration="1000">
+            <div align="center">
+                <h3 class="text-center text-lora text-uppercase text-dark-blue font-700">Investment Calculator</h3>
+                <div class="green-bot"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="form-group contact-group mt-md-5 mt-4">
+                        <label for="plan_name" class="form-label">Choose Plan</label>
+                        <select id="plan_name" class="form-select">
+                            <option value="beginner" data-min="100" data-max="599.99" data-percent="7" data-hours="12">
+                                Beginner Plan</option>
+                            <option value="energy" data-min="600" data-max="4999.99" data-percent="10" data-hours="24">
+                                Rosneft Energy Fund</option>
+                            <option value="petro" data-min="5000" data-max="9999.99" data-percent="16" data-hours="36">
+                                Petrochemical Pro</option>
+                            <option value="platinum" data-min="10000" data-max="14999.99" data-percent="25"
+                                data-hours="48">Platinum Super</option>
+                            <option value="elite" data-min="15000" data-max="max" data-percent="33" data-hours="72">
+                                Elite Partner</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="form-group contact-group mt-md-5 mt-4">
+                        <label for="plan_amount" class="form-label">Investment Amount ($)</label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="" value="0.00" aria-label="Button" aria-describedby="" />
+                            <button class="btn btn-outline-secondary igroup-btn" type="button" id="">
+                                $
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="calc-results mt-4">
+                        <div class="indicator">
+                            Total Profit (<span id="result_percent">12</span>%)
+                        </div>
+                        <h1 class="text-center text-invest text-lora mt-3 font-700" style="font-size: 30px;">$<span id="return_profit">0.00</span></h1>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="calc-results mt-4">
+                        <div class="indicator">
+                            Total Return After <span id="result_duration">12</span> hrs
+                        </div>
+                        <h1 class="text-center text-invest text-lora mt-3 font-700" style="font-size: 30px;">$<span id="return_total">0.00</span></h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ========== End Investment Calculator ========== -->
+
+    <!-- ========== Start Origin Area ========== -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
+                    <h6 class="text-uppercase text-inter font-600 text-bright-green" data-aos="fade-right"
+                        data-aos-duration="1000"># How it Started</h6>
+                    <h1 class="text-oswald font-700 text-dark-blue mb-3" data-aos="fade-right"
+                        data-aos-duration="1000" data-aos-delay="100">Our Origin</h1>
+                    <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Rosneft Capital was founded in 2018 by a team of visionary entrepreneurs and financial experts who recognized the vast potential of digital assets and blockchain technology to transform the global financial landscape. Drawing on the extensive experience in finance, technology, and investment, the founders set out to create a platform that would provide secure, efficient, and transparent bitcoin investment solutions to individuals and institutions worldwide.</p>
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                        <a href="#un" class="btn btn-cta">Learn More <span
+                                class="icofont-double-right"></span></a>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <img src="img/origin.jpg" alt="" class="img img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End Origin Area ========== -->
+
+    <!-- ========== Start Currency Converter ========== -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <h3 class="text-lora text-uppercase text-dark-blue font-700">Currency Converter</h3>
+                        <div class="green-bot"></div>
+                    </div>
+                    <p>Easily convert between digital assets with live exchange rates. Stay updated and make informed decisions before you trade.</p>
+                    <div class="currency-calculator sp-one">
+                        <div style="width: 100%;">
+                            <crypto-converter-widget
+                                live
+                                shadow
+                                symbol
+                                fiat="united-states-dollar"
+                                crypto="bitcoin"
+                                amount="1"
+                                border-radius="0.60rem"
+                                background-color="#171f2c"
+                                decimal-places="2"><a 
+                                href="https://cr.today/" 
+                                rel="noopener">Converter Widget</a></crypto-converter-widget>
+                            <!-- <a href="https://co-w.io/">co-w.io</a> -->
+                            <script src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.min.js" async></script>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-md-0 mt-5">
+                    <div style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); width: 100%; height: 409px; border-radius: 4px; overflow: hidden; box-sizing: border-box; text-size-adjust: 100%;">
+                        <iframe src="https://widget.coinlib.io/widget?type=full_v2&theme=light&cnt=6&pref_coin_id=1505&graph=yes" width="100%" height="409px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End Currency Converter ========== -->
 
     <div class="section-padding"></div>
 
@@ -491,7 +737,9 @@
                     </a>
                     <!-- <h5 class="footer-logo"><span class="text-bright-green">Smile</span> Homes</h5> -->
                     <div class="footer-textarea">
-                        <p>Rosneft Capital was founded in 2018 by a team of visionary entrepreneurs and financial experts who recognized the vast potential of digital assets and blockchain technology to transform the global financial landscape.</p>
+                        <p>Rosneft Capital was founded in 2018 by a team of visionary entrepreneurs and financial
+                            experts who recognized the vast potential of digital assets and blockchain technology to
+                            transform the global financial landscape.</p>
                     </div>
                     <a href="#un" class="footer-link">Read More <span class="la la-angle-right"></span></a>
                 </div>
@@ -500,11 +748,17 @@
                     <h5 class="footer-header text-white font-600">Quick Links</h5>
                     <div class="footer-textarea" style="padding-top: 15px;">
                         <ul class="footer-list">
-                            <li><a href="index.html" class="footer-link"><span class="fa fa-square-o font-13 text-bright-green pe-1"></span> Home</a></li>
-                            <li><a href="#un" class="footer-link"><span class="fa fa-square-o font-13 text-bright-green pe-1"></span> About</a></li>
-                            <li><a href="#un" class="footer-link"><span class="fa fa-square-o font-13 text-bright-green pe-1"></span> Our Plans</a></li>
-                            <li><a href="#un" class="footer-link"><span class="fa fa-square-o font-13 text-bright-green pe-1"></span> FAQ</a></li>
-                            <li><a href="#un" class="footer-link"><span class="fa fa-square-o font-13 text-bright-green pe-1"></span> Contact Us</a></li>
+                            <li><a href="index.html" class="footer-link"><span
+                                        class="fa fa-square-o font-13 text-bright-green pe-1"></span> Home</a></li>
+                            <li><a href="#un" class="footer-link"><span
+                                        class="fa fa-square-o font-13 text-bright-green pe-1"></span> About</a></li>
+                            <li><a href="#un" class="footer-link"><span
+                                        class="fa fa-square-o font-13 text-bright-green pe-1"></span> Our Plans</a></li>
+                            <li><a href="#un" class="footer-link"><span
+                                        class="fa fa-square-o font-13 text-bright-green pe-1"></span> FAQ</a></li>
+                            <li><a href="#un" class="footer-link"><span
+                                        class="fa fa-square-o font-13 text-bright-green pe-1"></span> Contact Us</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -513,9 +767,15 @@
                     <h5 class="footer-header text-white font-600">Contact Us</h5>
                     <div class="footer-textarea" style="padding-top: 15px;">
                         <ul class="footer-list">
-                            <li><a href="mailto:support@rosneftcapital.com"><span class="fa fa-envelope-o font-13 text-bright-green pe-1"></span> support@rosneftcapital.com</a></li>
-                            <li><a href="https://maps.app.goo.gl/8gxGTZ4NjJSzQL9v5" target="_blank"><span class="fa fa-home font-13 text-bright-green pe-1"></span>Brandenburgische Str. 117, 10713 Berlin, Germany.</a></li>
-                            <li><a href="tel:+443674785475"><span class="fa fa-phone font-13 text-bright-green pe-1"></span> +44-367-4785-475</a></li>
+                            <li><a href="mailto:support@rosneftcapital.com"><span
+                                        class="fa fa-envelope-o font-13 text-bright-green pe-1"></span>
+                                    support@rosneftcapital.com</a></li>
+                            <li><a href="https://maps.app.goo.gl/8gxGTZ4NjJSzQL9v5" target="_blank"><span
+                                        class="fa fa-home font-13 text-bright-green pe-1"></span>Brandenburgische Str.
+                                    117, 10713 Berlin, Germany.</a></li>
+                            <li><a href="tel:+443674785475"><span
+                                        class="fa fa-phone font-13 text-bright-green pe-1"></span> +44-367-4785-475</a>
+                            </li>
                         </ul>
                     </div>
                     <a href="contact.html" class="footer-link">Contact Us <span class="la la-angle-right"></span></a>
@@ -525,9 +785,12 @@
                     <h5 class="footer-header text-white font-600">Map Location</h5>
                     <div class="footer-textarea">
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d151.84795238877!2d13.319471238895792!3d52.486970912369564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a8508ca5b1096d%3A0xf22d0985de7322be!2sBrandenburgische%20Str.%20117!5e0!3m2!1sen!2sng!4v1758645929204!5m2!1sen!2sng" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        
-                    <!-- <form action="#un" method="get">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d151.84795238877!2d13.319471238895792!3d52.486970912369564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a8508ca5b1096d%3A0xf22d0985de7322be!2sBrandenburgische%20Str.%20117!5e0!3m2!1sen!2sng!4v1758645929204!5m2!1sen!2sng"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        <!-- <form action="#un" method="get">
                         <div class="input-group news-group mb-4">
                             <input type="text" class="form-control" placeholder="Enter your Email" aria-label="Button" aria-describedby=""/>
                             <button class="btn btn-news" type="submit" id="">
@@ -536,21 +799,22 @@
                         </div>
                     </form> -->
 
-                    <p class="mt-3">Don't Forget to Follow us on:</p>
-                    <div class="footer-links">
-                        <a href="#un"><span class="fa-brands fa-facebook-f"></span></a>
-                        <a href="#un"><span class="fa-brands fa-instagram"></span></a>
-                        <a href="#un"><span class="fa-brands fa-telegram"></span></a>
-                        <a href="#un"><span class="fa-brands fa-x-twitter"></span></a>
-                    </div>
-                        
+                        <p class="mt-3">Don't Forget to Follow us on:</p>
+                        <div class="footer-links">
+                            <a href="#un"><span class="fa-brands fa-facebook-f"></span></a>
+                            <a href="#un"><span class="fa-brands fa-instagram"></span></a>
+                            <a href="#un"><span class="fa-brands fa-telegram"></span></a>
+                            <a href="#un"><span class="fa-brands fa-x-twitter"></span></a>
+                        </div>
+
                     </div>
                 </div>
 
             </div>
 
             <div class="copyright-area text-center">
-                <span class="d-md-inline d-block">Copyright <span class="text-bright-green">&copy;2025.</span> Rosneft Capital</span>
+                <span class="d-md-inline d-block">Copyright <span class="text-bright-green">&copy;2025.</span> Rosneft
+                    Capital</span>
             </div>
 
         </div>
@@ -643,7 +907,105 @@
                 }
             ]
         }).slickAnimation();
+
+        $(document).ready(function () {
+
+            var $slider = $('.values-slider');
+            var $progress = $('.slider-progress');
+            var time = 5000; // autoplay speed (ms)
+            var percentTime = 0;
+            var tick;
+            var autoplaySpeed = time;
+
+            $slider.slick({
+                dots: false,
+                arrow: false,
+                loop: true,
+                speed: 1000,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: false
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            centerMode: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+            // Progress bar logic
+            function startProgressbar() {
+                resetProgressbar();
+                percentTime = 0;
+                tick = setInterval(interval, 30);
+            }
+
+            function interval() {
+                percentTime += 30 / time * 100;
+                $progress.css({
+                    width: percentTime + "%"
+                });
+                if (percentTime >= 100) {
+                    $slider.slick('slickNext');
+                    startProgressbar();
+                }
+            }
+
+            function resetProgressbar() {
+                $progress.css({
+                    width: 0 + '%'
+                });
+                clearInterval(tick);
+            }
+
+            startProgressbar();
+
+            // Reset on slide change
+            $slider.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                startProgressbar();
+            });
+
+        });
     </script>
+    <!-- <script src="js/splide.min.js"></script>
+    <script>
+        var splide = new Splide( '.splide', {
+  type   : 'loop',
+  perPage: 4,
+  perMove: 1,
+} );
+        var bar    = splide.root.querySelector( '.my-carousel-progress-bar' );
+        
+        // Updates the bar width whenever the carousel moves:
+        splide.on( 'mounted move', function () {
+            var end  = splide.Components.Controller.getEnd() + 1;
+            var rate = Math.min( ( splide.index + 1 ) / end, 1 );
+            bar.style.width = String( 100 * rate ) + '%';
+        });
+        
+        splide.mount();
+    </script> -->
 
 </body>
 
