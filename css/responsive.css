@@ -130,6 +130,8 @@
     .logo-item img {
         max-height: 70px;
     }
+
+    .logo-track { --ticker-duration: 10s; } /* adjust speed */
 }
 
 @media (max-width: 374px) {
