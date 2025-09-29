@@ -7,6 +7,10 @@
     .btn-translate {
         margin-top: 0px;
     }
+
+    .logo-item {
+        flex: 0 0 calc(100% / 4);
+    }
 }
 
 @media (max-width: 480px) {
@@ -95,6 +99,36 @@
 
     .values-cover {
         margin: 0px 10px;
+    }
+
+    .testimonial-5 {
+        margin-left: 0%;
+        position: relative;
+    }
+
+    .testimonial-5 .testimonial-pic-block {
+        left: inherit;
+        position: inherit;
+        text-align: center;
+        top: inherit;
+        padding-top: 30px;
+    }
+
+    .testimonial-5 .testimonial-pic {
+        float: none;
+        margin: 0 auto !important;
+    }
+
+    .testimonial-5 .testimonial-text {
+        padding: 40px 20px 20px;
+    }
+
+    .logo-item {
+        flex: 0 0 calc(100% / 3);
+    }
+
+    .logo-item img {
+        max-height: 70px;
     }
 }
 

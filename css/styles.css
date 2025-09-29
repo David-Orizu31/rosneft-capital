@@ -455,11 +455,11 @@ body p,a {
 
 /***** Other Home Sections Styles *****/  
 .section-padding {
-  padding-top: 70px;
+  padding-top: 80px;
 }
 
 .section-margin {
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .plans-area {
@@ -516,7 +516,7 @@ body p,a {
     color: #032B44;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 33px;
+    /* font-size: 33px; */
 }
 
   .green-bot {
@@ -722,6 +722,430 @@ body p,a {
     background-size: cover;
     min-height: 300px;
     padding: 50px 0px;
+}
+
+.home-cta-banner {
+    /* background: linear-gradient(
+  180deg,
+  rgba(52, 199, 89, 0.6) 0%,    
+  rgba(27, 110, 82, 0.85) 25%,   
+  rgba(3, 43, 68, 0.97) 100%    
+), url(../img/home-cta-banner.jpg) no-repeat center; */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(../img/home-cta-banner.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 250px;
+    padding: 70px 0px;
+}
+
+/***** Testimonial Styles *****/  
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+.bg-full-height {
+    background-size: auto 100%;
+}
+.bg-center {
+    background-position: center;
+}
+.section-full {
+    position: relative;
+}
+.p-b50 {
+    padding-bottom: 50px;
+}
+.p-t80 {
+    padding-top: 80px;
+}
+
+.testimonial-5, .testimonial-grid-5 {
+    margin-left: 85px;
+    position: relative;
+}
+
+.testimonial-5 .testimonial-pic-block, .testimonial-grid-5 .testimonial-pic-block {
+    left: -13%;
+    position: absolute;
+    top: 20%;
+}
+.radius-bx {
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+}
+
+.testimonial-5 .testimonial-pic, .testimonial-grid-5 .testimonial-pic {
+    float: left;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    z-index: 2;
+    border: none;
+}
+
+.testimonial-pic.radius img {
+    width: 100%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.testimonial-5 .testimonial-pic-block.radius-bx .testimonial-pic:after, .testimonial-grid-5 .testimonial-pic-block.radius-bx .testimonial-pic:after {
+    content: "";
+    border-radius: 100%;
+    position: absolute;
+    background-color: #34C759;
+    width: 110%;
+    height: 110%;
+    left: -2%;
+    top: -2%;
+    z-index: -1;
+}
+
+.testimonial-5 .testimonial-text, .testimonial-grid-5 .testimonial-text {
+    padding: 40px 30px 40px 110px;
+}
+.testimonial-text {
+    padding: 15px;
+    position: relative;
+}
+
+.testimonial-5 .fa-quote-left, .testimonial-grid-5 .fa-quote-left {
+    font-size: 36px;
+}
+
+.testimonial-5 .testimonial-paragraph p, .testimonial-grid-5 .testimonial-paragraph p {
+    padding: 5px 0px;
+}
+.testimonial-text p:last-child {
+    margin: 0;
+}
+.testimonial-text p {
+    margin: 0;
+}
+
+.testimonial-5 .testimonial-detail, .testimonial-grid-5 .testimonial-detail {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.testimonial-detail {
+    padding: 5px;
+}
+
+.testimonial-5 .testimonial-name, .testimonial-grid-5 .testimonial-name {
+    color: #2a2a2a;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.testimonial-5 .testimonial-name, .testimonial-grid-5 .testimonial-name, .testimonial-5 .testimonial-position, .testimonial-grid-5 .testimonial-position {
+    display: block;
+}
+.testimonial-name, .testimonial-position {
+    display: block;
+}
+strong {
+    font-weight: 600;
+}
+
+.testimonial-5 .testimonial-position, .testimonial-grid-5 .testimonial-position {
+    font-style: normal;
+}
+.testimonial-5 .testimonial-name, .testimonial-grid-5 .testimonial-name, .testimonial-5 .testimonial-position, .testimonial-grid-5 .testimonial-position {
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*-------------------------------------
+	1. owl slider 
+-------------------------------------*/
+
+/*-------------------------------------
+	1.1  next pre btn
+-------------------------------------*/
+.owl-carousel .owl-nav {
+	margin-top:40px;
+	text-align: center;
+}
+
+.owl-carousel .owl-nav .disabled {
+	opacity: .5;
+	cursor: default
+}
+
+/*-------------------------------------
+	1.2 owl dots button
+-------------------------------------*/
+.owl-carousel .owl-dots {
+	text-align:center;
+	margin-top:20px;
+}
+.owl-carousel .owl-dots .owl-dot {
+	display: inline-block;
+}
+
+.owl-carousel .owl-dots .owl-dot span {
+	width:12px;
+	height:12px;
+	margin:5px 7px;
+	background: #032B44;
+	border:1px solid #fff;
+	display: block;
+	-webkit-backface-visibility: visible;
+	-webkit-transition: opacity 200ms ease;
+	-moz-transition: opacity 200ms ease;
+	-ms-transition: opacity 200ms ease;
+	-o-transition: opacity 200ms ease;
+	transition: opacity 200ms ease;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span,
+.owl-carousel .owl-dots .owl-dot:hover span {
+	background: #34C759
+}
+
+/*-------------------------------------
+	1.3 owl button top to center
+-------------------------------------*/
+.owl-btn-top-center .owl-nav,
+.owl-btn-top-left .owl-nav,
+.owl-btn-top-right .owl-nav {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	margin:0;
+}
+.owl-btn-top-center .owl-stage-outer,
+.owl-btn-top-left .owl-stage-outer,
+.owl-btn-top-right .owl-stage-outer {
+	padding-top:60px;
+}
+.owl-btn-top-center .owl-nav {
+	text-align:center;
+}
+
+/*-------------------------------------
+	1.4 owl button top to left
+-------------------------------------*/
+.owl-btn-top-left .owl-nav {
+	text-align:left;
+}
+
+/*-------------------------------------
+	1.5 owl button top to right
+-------------------------------------*/
+.owl-btn-top-right .owl-nav {
+	text-align:right;
+}
+
+/*-------------------------------------
+	1.6 owl button bottom to center [it is default position ]
+-------------------------------------*/
+.owl-btn-bottom-center .owl-nav {
+	text-align:center;
+}
+
+/*-------------------------------------
+	1.7 owl button bottom to left
+-------------------------------------*/
+.owl-btn-bottom-left .owl-nav {
+	text-align:left;
+}
+
+/*-------------------------------------
+	1.8 owl button bottom to right
+-------------------------------------*/
+.owl-btn-bottom-right .owl-nav {
+	text-align:right;
+}
+
+/*-------------------------------------
+	1.9 owl button vertical to center
+-------------------------------------*/
+.owl-btn-vertical-center .owl-nav { 
+	margin:0px;
+}
+.owl-btn-vertical-center .owl-nav .owl-prev,
+.owl-btn-vertical-center .owl-nav .owl-next {
+	position:absolute;
+	top:50%;
+	margin:-15px 0;
+}
+.owl-btn-vertical-center .owl-nav .owl-prev {
+	left:0;
+}
+.owl-btn-vertical-center .owl-nav .owl-next {
+	right:0;
+}
+
+/*-------------------------------------
+	1.10 owl button show on hover
+-------------------------------------*/
+.owl-btn-hover .owl-nav {
+	opacity:0;
+}
+.owl-btn-hover:hover .owl-nav {
+	opacity:1;
+}
+
+.owl-carousel .owl-item img{
+	transform-style: inherit;
+}
+
+/*-------------------------------------
+    1.11 owl slider button
+-------------------------------------*/
+/*-------------------------------------
+    1.11 owl slider button
+-------------------------------------*/
+.owl-prev, .owl-next {
+	background-color: #000 !important;
+	color: #ffffff !important;
+	padding: 8px 10px;
+	width: 28px;
+	height: 35px;
+	text-align: center;
+	font-size: 13px;
+	display: inline-block;
+	cursor: pointer;
+  }
+
+.owl-carousel .owl-nav {
+	margin-top:30px;
+	text-align: center;
+}
+.owl-carousel .owl-nav .disabled {
+	opacity: .5;
+	cursor: default
+}
+
+
+
+.owl-prev,
+.owl-next {
+	background-color: #212121;
+	border-color: #212121;
+	color: #ffffff;
+	padding:8px 10px;
+	font-size: 13px;
+	display: inline-block;
+	cursor: pointer;
+	border-width:1px;
+	border-style:solid;
+	border-radius:0;
+	opacity:0.5;
+}
+.owl-prev {
+	margin-right:5px;
+}
+.owl-next {
+	margin-left:5px;
+}
+
+.owl-prev:hover,
+.owl-prev:active,
+.owl-prev:focus,
+.owl-next:hover,
+.owl-next:active,
+.owl-next:focus {
+	background-color: #212121;
+	border-color: #212121;
+	color: #ffffff;
+	opacity:0.9;
+}
+
+
+/*-------------------------------------
+	1.12 owl dots nav position
+-------------------------------------*/
+
+.owl-dots-bottom-left .owl-dots,
+.owl-dots-bottom-right .owl-dots ,
+.owl-dots-bottom-center .owl-dots{
+	bottom:0px;
+    padding:15px 20px;
+    position: absolute;
+	width:100%;
+}
+.owl-dots-bottom-left .owl-dots {
+    text-align: left;
+}
+
+.owl-dots-bottom-right .owl-dots {
+    text-align: right;
+}
+
+/***** End Testimonial Styles *****/
+
+/* CSS */
+.logo-ticker {
+  overflow: hidden;
+  width: 100%;
+  background: #fff; /* optional */
+}
+
+/* track contains 12 items (6 original + 6 duplicate) */
+.logo-track {
+  display: flex;
+  /* animation speed: change --ticker-duration to slow/faster */
+  --ticker-duration: 20s;
+  animation: ticker var(--ticker-duration) linear infinite;
+}
+
+/* each item takes exactly 1/6 of the container width */
+.logo-item {
+  flex: 0 0 calc(100% / 6);     /* <-- forces exactly 6 items across */
+  box-sizing: border-box;       /* includes padding in that width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;                 /* internal spacing — safe because of box-sizing */
+}
+
+/* image sizing — responsive, won't overflow its slot */
+.logo-item img {
+  max-width: 100%;
+  max-height: 80px;    /* change this to control visible size */
+  object-fit: contain;
+  display: block;
+}
+
+/* ticker movement: move left by exactly 50% (one set of 6 items) */
+@keyframes ticker {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* pause on hover */
+.logo-ticker:hover .logo-track {
+  animation-play-state: paused;
+}
+
+.bf-footer {
+  background: #34C759;
+  padding: 30px 0px;
+}
+
+.btn-auth.start-btn {
+  border: 1.5px solid #032B44;
+  background-image: -webkit-linear-gradient(30deg, #032B44 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #032B44 50%, transparent 50%);
+  font-weight: 600;
+}
+
+.btn-auth.start-btn:hover {
+  background-position: 100%;
+  color: #032B44;
+  background: white;
+  border: 1.5px solid white;
 }
 
 /***** End Other Home Sections Styles *****/
