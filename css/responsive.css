@@ -92,6 +92,10 @@
         border-top: 15px solid #34C759;
         border-right: 15px solid #34C759;
     }
+
+    .values-cover {
+        margin: 0px 10px;
+    }
 }
 
 @media (max-width: 374px) {
