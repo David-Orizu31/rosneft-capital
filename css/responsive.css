@@ -132,6 +132,15 @@
     }
 
     .logo-track { --ticker-duration: 10s; } /* adjust speed */
+
+    .oth-banner h1 {
+        font-size: 35px;
+    }
+
+    .accordion-bg {
+        width: 80px;
+        transform: skew(-20deg);
+    }
 }
 
 @media (max-width: 374px) {
