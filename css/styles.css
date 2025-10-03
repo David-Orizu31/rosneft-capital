@@ -3,6 +3,7 @@
 /* Hide Google Translate top banner */
 .skiptranslate {
     display: none !important;
+    top: 0px !important;
 }  
 
 
