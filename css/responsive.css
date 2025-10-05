@@ -141,6 +141,10 @@
         width: 80px;
         transform: skew(-20deg);
     }
+
+    .cert-area {
+        padding: 30px;
+    }
 }
 
 @media (max-width: 374px) {

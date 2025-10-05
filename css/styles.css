@@ -1309,6 +1309,17 @@ strong {
     margin-right: -20px;
     transform: skew(-30deg);
   }
+
+  .certificate-area {
+    background-color: #032B44;
+    padding: 60px 0px;
+  }
+
+  .cert-area {
+    border: 4px solid #34C759;
+    padding: 50px;
+    margin-top: 50px;
+  }
 /***** End Other Page Styles *****/
 
 /***** Footer Styles *****/ 
