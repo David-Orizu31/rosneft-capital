@@ -1178,7 +1178,7 @@ strong {
 
 /***** Other Page Styles *****/  
 .about-banner {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(../img/woman-trust.jpg) no-repeat center;
+  background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(../img/rosneft/about-rosneft.jpg) no-repeat center;
   background-size: cover;
   min-height: 250px;
   padding-top: 100px;
