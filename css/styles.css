@@ -291,7 +291,7 @@ body p,a {
   }
 
   .banner-3 {
-    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../img/rosneft/bit-mining-setup.jpg) no-repeat center;
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(../img/rosneft/bit-mining-setup.jpg) no-repeat center;
   }
 
   .banner-text-area {
