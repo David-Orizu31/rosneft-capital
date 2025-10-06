@@ -73,7 +73,7 @@
     }
 
     .banner-1 {
-        background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../img/banner-one.jpg) no-repeat center;
+        background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(../img/rosneft/drill-banner.jpg) no-repeat bottom;
     }
 
     .banner-2 {
@@ -81,7 +81,7 @@
     }
 
     .banner-3 {
-        background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../img/banner-three.jpg) no-repeat center;
+        background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../img/rosneft/bit-mining-setup.jpg) no-repeat center;
     }
 
     .about-pic-area {
