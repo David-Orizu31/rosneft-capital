@@ -283,7 +283,7 @@ body p,a {
   }
 
   .banner-1 {
-    background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(../img/rosneft/drill-banner.jpg) no-repeat bottom;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(../img/rosneft/drill-banner.jpg) no-repeat bottom;
   }
 
   .banner-2 {
@@ -745,7 +745,7 @@ body p,a {
   rgba(27, 110, 82, 0.85) 25%,   
   rgba(3, 43, 68, 0.97) 100%    
 ), url(../img/home-cta-banner.jpg) no-repeat center; */
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(../img/home-cta-banner.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(../img/rosneft/rosneft-refining.jpg) no-repeat center;
     background-size: cover;
     min-height: 250px;
     padding: 70px 0px;
