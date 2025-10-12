@@ -47,12 +47,13 @@ document.querySelectorAll("#languageList .dropdown-item").forEach(function(el) {
    document.documentElement.scrollTop = 0;
  }
 
-$(function () {
-    $(document).scroll(function () {
-        var headerheight = $('.site-header').height();
-        var navheight = $('.navbar').height();
-        var totalheight = headerheight + navheight;
-      var $nav = $(".navbar");
-      $nav.toggleClass('sticky', $(this).scrollTop() > totalheight);
-    });
-});
+// $(function () {
+//     $(document).scroll(function () {
+//         // var headerheight = $('.site-header').height();
+//         // var navheadheight = $('.nav-header').height();
+//         var navheight = $('.text-banner').height();
+//         var totalheight = navheight;
+//       var $nav = $(".nav-header");
+//       $nav.toggleClass('sticky', $(this).scrollTop() > totalheight);
+//     });
+// });

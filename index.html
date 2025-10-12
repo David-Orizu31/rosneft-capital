@@ -40,7 +40,7 @@
     <!-- Hidden Google Translate element -->
     <div id="google_translate_element" style="display:none;"></div>
 
-    <header class="site-header d-lg-block d-none">
+    <!-- <header class="site-header d-lg-block d-none">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -61,7 +61,13 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header> -->
+
+    <div class="nav-header fixed-top">
+
+    <script src="https://widgets.coingecko.com/gecko-coin-price-marquee-widget.js"></script>
+    <gecko-coin-price-marquee-widget locale="en" dark-mode="true" outlined="true" coin-ids=""
+        initial-currency="usd"></gecko-coin-price-marquee-widget>
 
     <!-- ========== Start Navigation Bar ========== -->
     <nav class="navbar navbar-expand-lg">
@@ -232,10 +238,12 @@
 
         </div>
     </nav>
+
+    </div>
     <!-- ========== End Navigation Bar ========== -->
 
     <!-- ========== Start Homepage Banner Area ========== -->
-    <div class="slideshow">
+    <!-- <div class="slideshow">
         <div class="slider">
             <div class="item">
                 <div class="item-banner banner-1"></div>
@@ -297,10 +305,56 @@
             </div>
 
         </div>
+    </div> -->
+
+    <div class="text-banner">
+        <div class="container">
+            <div class="slider">
+                <div class="banner-slide-one">
+                    <div class="banner-text-area">
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 col-lg-9">
+                                <div align="center">
+                                    <h6 class="text-yellow mb-0">THE FUTURE OF INVESTMENT</h6>
+                                    <h2 class="text-white">Welcome to Rosneft Capital, the revolution in smart investing.</h2>
+                                    <div class="seperator"></div>
+                                    <p class="text-white">Imagine a team of experts with cutting-edge technology and Artificial Intelligence capable of meticulous trend identification, astute market analysis and ensuring daily profitability with high performance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-slide-two">
+                    <div class="banner-text-area">
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 col-lg-9">
+                                <div align="center">
+                                    <h6 class="text-yellow mb-0">Smart Strategies, Strong Returns</h6>
+                                    <h2 class="text-white">Unlock the Future of Wealth Creation Through Cryptocurrency</h2>
+                                    <div class="seperator"></div>
+                                    <p class="text-white">With a deep understanding of global markets and innovative crypto investment products, we empower investors to diversify, grow, and achieve lasting financial success.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-slide-three">
+                    <div class="banner-text-area">
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 col-lg-9">
+                                <div align="center">
+                                    <h6 class="text-yellow mb-0">Military-Grade Protection</h6>
+                                    <h2 class="text-white">Protecting Your Digital Wealth with Unmatched Security Standards</h2>
+                                    <div class="seperator"></div>
+                                    <p class="text-white">Our platform employs multi-layered defense, encryption, and real-time monitoring to safeguard your digital assets and ensure every transaction is protected.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <script src="https://widgets.coingecko.com/gecko-coin-price-marquee-widget.js"></script>
-    <gecko-coin-price-marquee-widget locale="en" dark-mode="true" outlined="true" coin-ids=""
-        initial-currency="usd"></gecko-coin-price-marquee-widget>
     <!-- ========== End Homepage Banner Area ========== -->
 
     <!-- ========== Start Plans Section ========== -->
@@ -310,8 +364,9 @@
                 <h3 class="section-header" data-aos="fade-up" data-aos-duration="1000">Our Plans</h3>
                 <div class="green-bot" data-aos="fade-up" data-aos-duration="1000"></div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md-4">
+            <br>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-6 gx-lg-2 gx-1">
                     <div class="plans-area" align="center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="plan-imgarea">
                             <img src="img/beginner.png" alt="" class="img-plan">
@@ -325,14 +380,14 @@
                             <div class="plan-body">
                                 <span class="plan-info">Minimum: $100</span>
                                 <span class="plan-info">Maximum: $599.99</span>
-                                <span class="plan-info text-neon-green font-600 pb-3" style="font-size: 14px;">1
-                                    cycle</span>
+                                <span class="plan-info instant-withdraw text-neon-green font-600 pb-3">Instant withdraw</span>
+                                <span class="plan-info plan-note pb-4"><b>Note:</b> Unlimited compounding exclusively in the 3rd, 4th, and 5th plans, which offer the highest returns. The 2nd plan allows up to 3 investment cycles, and the 1st plan allows a single cycle.</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-4 col-6 gx-lg-2 gx-1">
                     <div class="plans-area" align="center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="plan-imgarea">
                             <img src="img/energy.png" alt="" class="img-plan">
@@ -346,14 +401,14 @@
                             <div class="plan-body">
                                 <span class="plan-info">Minimum: $600</span>
                                 <span class="plan-info">Maximum: $4999.99</span>
-                                <span class="plan-info text-neon-green font-600 pb-3" style="font-size: 14px;">3
-                                    cycles</span>
+                                <span class="plan-info instant-withdraw text-neon-green font-600 pb-3">Instant withdraw</span>
+                                <span class="plan-info plan-note pb-4"><b>Note:</b> Unlimited compounding exclusively in the 3rd, 4th, and 5th plans, which offer the highest returns. The 2nd plan allows up to 3 investment cycles, and the 1st plan allows a single cycle.</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-4 col-6 gx-lg-2 gx-1">
                     <div class="plans-area" align="center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="plan-imgarea">
                             <img src="img/petrochemical.png" alt="" class="img-plan">
@@ -367,14 +422,14 @@
                             <div class="plan-body">
                                 <span class="plan-info">Minimum: $5000</span>
                                 <span class="plan-info">Maximum: $9999.99</span>
-                                <span class="plan-info text-neon-green font-600 pb-3"
-                                    style="font-size: 14px;">Unlimited</span>
+                                <span class="plan-info instant-withdraw text-neon-green font-600 pb-3">Instant withdraw</span>
+                                <span class="plan-info plan-note pb-4"><b>Note:</b> Unlimited compounding exclusively in the 3rd, 4th, and 5th plans, which offer the highest returns. The 2nd plan allows up to 3 investment cycles, and the 1st plan allows a single cycle.</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-4 col-6 gx-lg-2 gx-1">
                     <div class="plans-area" align="center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="plan-imgarea">
                             <img src="img/platinum.png" alt="" class="img-plan">
@@ -388,14 +443,14 @@
                             <div class="plan-body">
                                 <span class="plan-info">Minimum: $10000</span>
                                 <span class="plan-info">Maximum: $14999.99</span>
-                                <span class="plan-info text-neon-green font-600 pb-3"
-                                    style="font-size: 14px;">Unlimited</span>
+                                <span class="plan-info instant-withdraw text-neon-green font-600 pb-3">Instant withdraw</span>
+                                <span class="plan-info plan-note pb-4"><b>Note:</b> Unlimited compounding exclusively in the 3rd, 4th, and 5th plans, which offer the highest returns. The 2nd plan allows up to 3 investment cycles, and the 1st plan allows a single cycle.</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-4 col-6 gx-lg-2 gx-1">
                     <div class="plans-area" align="center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="plan-imgarea">
                             <img src="img/elite-trader.png" alt="" class="img-plan">
@@ -409,8 +464,9 @@
                             <div class="plan-body">
                                 <span class="plan-info">Minimum: $15000</span>
                                 <span class="plan-info">Maximum: Unlimited</span>
-                                <span class="plan-info text-neon-green font-600 pb-3"
-                                    style="font-size: 14px;">Unlimited</span>
+                                <span class="plan-info instant-withdraw text-neon-green font-600 pb-3"
+                                    style="font-size: 14px;">Instant withdraw</span>
+                                <span class="plan-info plan-note pb-4" style="color: lightgray; font-size: 12px;"><b>Note:</b> Unlimited compounding exclusively in the 3rd, 4th, and 5th plans, which offer the highest returns. The 2nd plan allows up to 3 investment cycles, and the 1st plan allows a single cycle.</span>
                             </div>
                         </div>
                     </div>
@@ -516,7 +572,7 @@
         <div class="my-slider-progress-bar"></div>
     </div>
     </div>    -->
-    <section class="section-padding">
+    <!-- <section class="section-padding">
         <div class="container section-padding">
             <div class="values-slider" data-aos="fade-in" data-aos-duration="1000">
                 <div class="values-cover">
@@ -585,16 +641,15 @@
                 </div>
             </div>
 
-            <!-- Progress bar -->
             <div class="slider-progress-bar">
                 <div class="slider-progress"></div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ========== End Values Area ========== -->
 
     <!-- ========== Start Investment Calculator ========== -->
-    <section class="section-padding">
+    <!-- <section class="section-padding">
         <div class="container" data-aos="fade-in" data-aos-duration="1000">
             <div align="center">
                 <h3 class="text-center text-lora text-uppercase text-dark-blue font-700">Investment Calculator</h3>
@@ -652,14 +707,14 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ========== End Investment Calculator ========== -->
 
     <!-- ========== Start Origin Area ========== -->
     <section class="section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
+                <div class="col-md-6 mt-md-0 mt-4 order-last order-md-first" data-aos="fade-right" data-aos-duration="1000">
                     <h6 class="text-uppercase text-inter font-600 text-bright-green" data-aos="fade-right"
                         data-aos-duration="1000"># How it Started</h6>
                     <h1 class="text-oswald font-700 text-dark-blue mb-3" data-aos="fade-right"
@@ -670,7 +725,7 @@
                                 class="icofont-double-right"></span></a>
                     </div>
                 </div>
-                <div class="col-md-6 mt-md-0 mt-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <div class="col-md-6 mt-md-0 mt-4 order-first order-md-last" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                     <img src="img/rosneft/rosneft-hist-two.jpg" alt="" class="img img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 </div>
             </div>
@@ -680,7 +735,7 @@
 
     <!-- ========== Start Oil & Gas Widget Update ========== -->
     <!-- Brent Crude Price Widget -->
-    <section class="section-margin container" data-aos="fade-up" data-aos-duration="1000">
+    <!-- <section class="section-margin container" data-aos="fade-up" data-aos-duration="1000">
     <div style="width:100%; border:1px solid #2D6AB4;" align="center">
     <div style="background:linear-gradient(90deg, #0A3D62, #38ADA9); text-align:center; font-weight:bold; padding:10px 0;">
         <a href="https://www.oilcrudeprice.com/" target="_blank" style="font-size:20px; font-weight: 600; color:#FFFFFF; text-decoration:none;" rel="nofollow">
@@ -689,11 +744,11 @@
     </div>
     <script src="https://www.oilcrudeprice.com/oilwidget.php?m=000000&g=FFFFFF&c=0A3D62&i=FFFFFF&l=38ADA9&o=E6F2FA&w=300&u=brent"></script>
     </div>
-    </section>
+    </section> -->
     <!-- ========== End Oil & Gas Widget Update ========== -->
 
     <!-- ========== Start Currency Converter ========== -->
-    <section class="section-padding" data-aos="fade-up" data-aos-duration="1000">
+    <!-- <section class="section-padding" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -716,7 +771,6 @@
                                 decimal-places="2"><a 
                                 href="https://cr.today/" 
                                 rel="noopener">Converter Widget</a></crypto-converter-widget>
-                            <!-- <a href="https://co-w.io/">co-w.io</a> -->
                             <script src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.min.js" async></script>
                         </div>
                     </div>
@@ -729,11 +783,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ========== End Currency Converter ========== -->
 
     <!-- ========== Start Home CTA ========== -->
-    <section class="section-margin home-cta-banner" data-aos="fade-in" data-aos-duration="1000">
+    <!-- <section class="section-margin home-cta-banner" data-aos="fade-in" data-aos-duration="1000">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-9 text-center text-white">
@@ -743,7 +797,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ========== End Home CTA ========== -->
 
     <!-- SECTION TESTIMONIAL START -->
@@ -983,7 +1037,7 @@
                                         class="fa fa-envelope-o font-13 text-bright-green pe-1"></span>
                                     support@rosneftcapital.com</a></li>
                             <li><a href="https://maps.app.goo.gl/aVrBZicoCUKY6TsG8" target="_blank"><span
-                                        class="fa fa-home font-13 text-bright-green pe-1"></span>Behrenstraße 18, 10117 Berlin, Germany.</a></li>
+                                        class="fa fa-map-marker-alt font-13 text-bright-green pe-1"></span>Behrenstraße 18, 10117 Berlin, Germany.</a></li>
                             <li><a href="tel:+443674785475"><span
                                         class="fa fa-phone font-13 text-bright-green pe-1"></span> +44-367-4785-475</a>
                             </li>
@@ -1007,13 +1061,13 @@
                         </div>
                     </form> -->
 
-                        <p class="mt-3">Don't Forget to Follow us on:</p>
+                        <!-- <p class="mt-3">Don't Forget to Follow us on:</p>
                         <div class="footer-links">
                             <a href="#un"><span class="fa-brands fa-facebook-f"></span></a>
                             <a href="#un"><span class="fa-brands fa-instagram"></span></a>
                             <a href="#un"><span class="fa-brands fa-telegram"></span></a>
                             <a href="#un"><span class="fa-brands fa-x-twitter"></span></a>
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>
@@ -1094,29 +1148,30 @@
     <script src="slick-1.8.1/slick-1.8.1/slick/slick-animation.min.js"></script>
     <script>
         $('.slider').slick({
-            autoplay: true,
-            autoplaySpeed: 5000,
+            // autoplay: true,
+            // autoplaySpeed: 5000,
             draggable: true,
-            arrows: false,
-            dots: true,
-            dotsClass: 'slider-dots',
-            fade: true,
-            speed: 2000,
+            arrows: true,
+            dots: false,
+            nextArrow: '<button class="slider-arrow next inverted"><i class="la la-long-arrow-right"></i></button>',
+            prevArrow: '<button class="slider-arrow prev inverted"><i class="la la-long-arrow-left"></i></button>',
+            // fade: true,
+            speed: 500,
             infinite: true,
-            cssEase: 'ease',
+            // cssEase: 'ease',
             touchThreshold: 100,
-            responsive: [
-                {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: true,
-                        dots: false,
-                        nextArrow: '<button class="slider-arrow next inverted"><i class="la la-long-arrow-right"></i></button>',
-                        prevArrow: '<button class="slider-arrow prev inverted"><i class="la la-long-arrow-left"></i></button>',
-                    }
-                }
-            ]
-        }).slickAnimation();
+            // responsive: [
+            //     {
+            //         breakpoint: 480,
+            //         settings: {
+            //             arrows: true,
+            //             dots: false,
+            //             nextArrow: '<button class="slider-arrow next inverted"><i class="la la-long-arrow-right"></i></button>',
+            //             prevArrow: '<button class="slider-arrow prev inverted"><i class="la la-long-arrow-left"></i></button>',
+            //         }
+            //     }
+            // ]
+        });
 
         $(document).ready(function () {
 

@@ -65,7 +65,7 @@
     }
 
     .banner-text-area h2 {
-        font-size: 38px;
+        font-size: 35px;
     }
 
     .banner-text-area p {
@@ -82,6 +82,10 @@
 
     .banner-3 {
         background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(../img/rosneft/bit-mining-setup.jpg) no-repeat center;
+    }
+
+    .slider .slider-arrow {
+        display: none !important;
     }
 
     .about-pic-area {
@@ -145,6 +149,39 @@
     .cert-area {
         padding: 30px;
     }
+
+    /* Plans Responsive Design */
+    .plans-area .img-plan {
+        width: 50px;
+    }
+
+    .plans-area .plan-textarea .plan-header .sub-title {
+        font-size: 12px;
+    }
+
+    .plans-area .plan-textarea .plan-header .title {
+        font-size: 42px;
+    }
+
+    .plans-area .plan-textarea .plan-body .plan-info {
+        font-size: 12px;
+    }
+
+    .instant-withdraw {
+        font-size: 13px !important;
+    }
+
+    .plan-note {
+        font-size: 11px !important;
+    }
+
+    .plans-area .plan-textarea .plan-header {
+        padding: 15px;
+    }
+
+    .plans-area .plan-imgarea {
+        padding: 20px;
+    }
 }
 
 @media (max-width: 374px) {
@@ -152,11 +189,61 @@
         display: grid !important;
         grid-template-columns: 68% 16% 17% !important;
     }
+
+    /* Plans Responsive Design */
+    .plans-area .img-plan {
+        width: 50px;
+    }
+
+    .plans-area .plan-textarea .plan-header .sub-title {
+        font-size: 11px;
+    }
+
+    .plans-area .plan-textarea .plan-header .title {
+        font-size: 40px;
+    }
+
+    .plans-area .plan-textarea .plan-body .plan-info {
+        font-size: 11px;
+    }
+
+    .instant-withdraw {
+        font-size: 12px !important;
+    }
+
+    .plan-note {
+        font-size: 10px !important;
+    }
 }
 
 @media (max-width: 359px) {
     .navbar>.container {
         display: grid !important;
         grid-template-columns: 65% 15% 20% !important;
+    }
+
+    /* Plans Responsive Design */
+    .plans-area .img-plan {
+        width: 45px;
+    }
+
+    .plans-area .plan-textarea .plan-header .sub-title {
+        font-size: 10px;
+    }
+
+    .plans-area .plan-textarea .plan-header .title {
+        font-size: 38px;
+    }
+
+    .plans-area .plan-textarea .plan-body .plan-info {
+        font-size: 10px;
+    }
+
+    .instant-withdraw {
+        font-size: 11px !important;
+    }
+
+    .plan-note {
+        font-size: 9px !important;
     }
 }
