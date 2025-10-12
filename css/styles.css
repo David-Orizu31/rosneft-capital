@@ -310,7 +310,68 @@ body p,a {
     width: 100%;
     height: 100%; */
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
+  }
+
+  .banner-calc-area {
+    margin: 20px;
+    padding: 20px 30px;
+    color: white;
+    box-shadow:
+    0 0 10px rgba(255, 255, 255, 0.15),
+    0 0 25px rgba(0, 204, 255, 0.2);
+    border-radius: 7px;
+  }
+
+  .banner-calc-area .form-label {
+    color: lightgray;
+    font-size: 14px;
+  }
+
+  .banner-calc-area input[type="text"],
+  .banner-calc-area input[type="email"],
+  .banner-calc-area input[type="password"] {
+    background: rgba(0, 204, 255, 0.10); /* subtle aqua tint */
+    color: #FFFFFF;
+    text-align: center;
+    /* border: 1px solid rgba(255, 255, 255, 0.20); */
+    border: 1px solid rgba(0, 204, 255, 0.10);
+    border-radius: 0px;
+    padding: 8px 12px;
+    outline: none;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  }
+
+  .banner-calc-area select {
+    background: rgba(0, 204, 255, 0.10); /* subtle aqua tint */
+    color: #FFFFFF;
+    /* border: 1px solid rgba(255, 255, 255, 0.20); */
+    border: 1px solid rgba(0, 204, 255, 0.10);
+    border-radius: 0px;
+    padding: 8px 12px;
+    outline: none;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 320 512'><path d='M143 352.3l-136-136C0 211.8 0 198.2 7 190.3s18.4-7 25.4 0L160 317.5l127.6-127.2c7-7 18.4-7 25.4 0s7 18.4 0 25.4l-136 136c-7 7-18.4 7-25.4 0z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px 12px;
+  }
+
+  .banner-calc-area select:focus {
+    box-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+    border-color: rgba(0, 255, 255, 0.4);
+  }
+
+  .banner-calc-area input:focus {
+    box-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+    border-color: rgba(0, 255, 255, 0.4);
+  }
+
+  .banner-calc-area select option {
+    background: #033B57;
   }
 
    /* Change animation presets */
@@ -396,7 +457,7 @@ body p,a {
     font-size: 20px;
     position: absolute;
     z-index: 5;
-    top: 50%;
+    top: 45%;
     transform: translate(0, -50%);
     outline: 0;
     cursor: pointer;
@@ -519,6 +580,25 @@ body p,a {
     content: "";
     display: inline-block;
     margin-left: 20px;
+}
+
+.banner-ctas .reg-btn {
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 10px;
+  padding: 15px 35px;
+}
+
+.banner-ctas .login-btn {
+  background: transparent !important;
+  color: white !important;
+  border: 1px solid white;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 10px;
+  padding: 15px 35px;
 }
 
 /***** End Homepage Banner Styles *****/
@@ -1326,21 +1406,21 @@ strong {
 }
 
 .plans-banner {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(../img/home-cta-banner.jpg) no-repeat center;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(../img/rosneft/rosneft-workers-2.jpg) no-repeat center;
   background-size: cover;
   min-height: 250px;
   padding-top: 100px;
 }
 
 .faq-banner {
-  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(../img/trade-integrity.jpg) no-repeat center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(../img/rosneft/about-rosneft.jpg) no-repeat center;
   background-size: cover;
   min-height: 250px;
   padding-top: 100px;
 }
 
 .contact-banner {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(../img/trading-excellence-2.jpg) no-repeat center;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(../img/trade-integrity.jpg) no-repeat center;
   background-size: cover;
   min-height: 250px;
   padding-top: 100px;

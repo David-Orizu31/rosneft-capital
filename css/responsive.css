@@ -84,8 +84,13 @@
         background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(../img/rosneft/bit-mining-setup.jpg) no-repeat center;
     }
 
+    .banner-ctas a {
+        width: 80%;
+    }
+
     .slider .slider-arrow {
         display: none !important;
+        top: 30%;
     }
 
     .about-pic-area {
