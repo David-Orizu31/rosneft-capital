@@ -93,6 +93,10 @@
         top: 30%;
     }
 
+    .title-area {
+        padding: 40px;
+    }
+
     .about-pic-area {
         padding-left: 70px;
     }
