@@ -1330,7 +1330,7 @@ strong {
 }
 
 .info-area {
-  background: url(../img/rosneft/rosneft-workers-2.jpg) no-repeat center;
+  background: url(../img/investor-focus.jpg) no-repeat center;
   background-size: cover;
   min-height: 300px;
   height: 100%;
@@ -1403,6 +1403,10 @@ strong {
 
 .oth-banner {
   margin-top: 100px;
+  min-height: 200px;
+  padding-top: 80px;
+  background-color: #032B44;
+  /* border-bottom: 5px solid #34C759; */
 }
 
 .plans-banner {
