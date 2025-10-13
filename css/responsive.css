@@ -60,6 +60,11 @@
         }
     }
 
+    /* .banner-text-area {
+        padding-left: 15px;
+        padding-right: 15px;
+    } */
+
     .banner-text-area h6 {
         font-size: 13px;
     }
@@ -70,6 +75,8 @@
 
     .banner-text-area p {
         font-size: 13px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 
     .banner-1 {
@@ -89,9 +96,18 @@
     }
 
     .slider .slider-arrow {
-        display: none !important;
+        /* display: none !important; */
         top: 30%;
+        padding: 6px 8px;
+        font-size: 16px;
     }
+
+  .slider .slider-arrow.next {
+    right: -10px;
+  }
+  .slider .slider-arrow.prev {
+    left: -10px;
+  }
 
     .title-area {
         padding: 40px;
