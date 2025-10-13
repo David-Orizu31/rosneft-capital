@@ -185,7 +185,7 @@ body p,a {
 }
 
 .navbar-nav .nav-item .nav-link {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .navbar-nav .nav-item .nav-link.active {
@@ -207,8 +207,8 @@ body p,a {
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
-  padding: 10px 20px;
-  height: 42px;
+  padding: 8px 20px;
+  /* height: 42px; */
 }
 
 .btn-auth:hover {
@@ -234,10 +234,11 @@ body p,a {
   border: none !important;
   padding: 5px !important;
   margin-top: -5px;
+  font-size: 15px;
 }
 
 .btn-translate .icofont-globe {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .btn-toggle {
@@ -309,13 +310,13 @@ body p,a {
     left: 0;
     width: 100%;
     height: 100%; */
-    padding-top: 70px;
+    padding-top: 40px;
     padding-bottom: 50px;
   }
 
   .banner-calc-area {
-    margin: 20px;
-    padding: 20px 30px;
+    margin: 0px 20px 10px 20px;
+    padding: 15px 30px;
     color: white;
     box-shadow:
     0 0 10px rgba(255, 255, 255, 0.15),
@@ -325,7 +326,7 @@ body p,a {
 
   .banner-calc-area .form-label {
     color: lightgray;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .banner-calc-area input[type="text"],
@@ -337,8 +338,9 @@ body p,a {
     /* border: 1px solid rgba(255, 255, 255, 0.20); */
     border: 1px solid rgba(0, 204, 255, 0.10);
     border-radius: 0px;
-    padding: 8px 12px;
+    padding: 7px 10px;
     outline: none;
+    font-size: 13px;
     transition: box-shadow 0.3s ease, border-color 0.3s ease;
   }
 
@@ -348,7 +350,8 @@ body p,a {
     /* border: 1px solid rgba(255, 255, 255, 0.20); */
     border: 1px solid rgba(0, 204, 255, 0.10);
     border-radius: 0px;
-    padding: 8px 12px;
+    padding: 7px 10px;
+    font-size: 13px;
     outline: none;
     transition: box-shadow 0.3s ease, border-color 0.3s ease;
     appearance: none;
@@ -372,6 +375,10 @@ body p,a {
 
   .banner-calc-area select option {
     background: #033B57;
+  }
+
+  .banner-calc-area h5 {
+    font-size: 15px;
   }
 
    /* Change animation presets */
@@ -522,7 +529,7 @@ body p,a {
 .banner-text-area h6 {
   color: #7cf199;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 13px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -530,15 +537,16 @@ body p,a {
   margin-top: 10px;
   font-family: "Oswald", sans-serif;
   /* font-family: "Lora", serif; */
-  font-size: 42px;
+  font-size: 37px;
   font-weight: 600;
-  margin-bottom: 17px;
+  margin-bottom: 10px;
 }
 
 .banner-text-area p {
-  margin-top: 10px;
+  margin-top: 0px;
   color: whitesmoke;
   margin-bottom: 30px;
+  font-size: 12px;
 }
 
 .text-banner {

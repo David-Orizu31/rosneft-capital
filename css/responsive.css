@@ -65,16 +65,21 @@
         padding-right: 15px;
     } */
 
+  .banner-text-area {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
     .banner-text-area h6 {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .banner-text-area h2 {
-        font-size: 35px;
+        font-size: 28px;
     }
 
     .banner-text-area p {
-        font-size: 13px;
+        font-size: 10.5px;
         padding-left: 35px;
         padding-right: 35px;
     }
@@ -92,7 +97,20 @@
     }
 
     .banner-ctas a {
-        width: 80%;
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    .banner-ctas .reg-btn {
+        font-size: 12px;
+        margin: 5px;
+        padding: 10px 20px;
+    }
+
+    .banner-ctas .login-btn {
+        font-size: 12px;
+        margin: 5px;
+        padding: 10px 20px;
     }
 
     .slider .slider-arrow {
@@ -107,6 +125,30 @@
   }
   .slider .slider-arrow.prev {
     left: -10px;
+  }
+
+  .banner-calc-area {
+    padding: 15px 15px;
+  }
+
+  .banner-calc-area h5 {
+    font-size: 14px;
+  }
+
+  .banner-calc-area .form-label {
+    font-size: 12px;
+  }
+
+  .banner-calc-area input[type="text"],
+  .banner-calc-area input[type="email"],
+  .banner-calc-area input[type="password"] {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
+  .banner-calc-area select {
+    font-size: 12px;
+    padding: 5px 10px;
   }
 
     .title-area {
