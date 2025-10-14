@@ -218,32 +218,41 @@
     }
 
     /* Plans Responsive Design */
+    .plans-container {
+        padding: 0px 30px;
+    }
+
+    .plans-area {
+        margin-top: 15px;
+    }
+
     .plans-area .img-plan {
         width: 50px;
     }
 
     .plans-area .plan-textarea .plan-header .sub-title {
-        font-size: 12px;
+        font-size: 10.5px;
     }
 
     .plans-area .plan-textarea .plan-header .title {
-        font-size: 42px;
+        font-size: 35px;
     }
 
     .plans-area .plan-textarea .plan-body .plan-info {
-        font-size: 12px;
+        font-size: 10.5px;
+        padding: 8px 15px;
     }
 
     .instant-withdraw {
-        font-size: 13px !important;
-    }
-
-    .plan-note {
         font-size: 11px !important;
     }
 
+    .plan-note {
+        font-size: 9px !important;
+    }
+
     .plans-area .plan-textarea .plan-header {
-        padding: 15px;
+        padding: 10px;
     }
 
     .plans-area .plan-imgarea {
@@ -262,7 +271,7 @@
         width: 50px;
     }
 
-    .plans-area .plan-textarea .plan-header .sub-title {
+    /* .plans-area .plan-textarea .plan-header .sub-title {
         font-size: 11px;
     }
 
@@ -280,7 +289,7 @@
 
     .plan-note {
         font-size: 10px !important;
-    }
+    } */
 }
 
 @media (max-width: 359px) {
@@ -294,7 +303,11 @@
         width: 45px;
     }
 
-    .plans-area .plan-textarea .plan-header .sub-title {
+   .plans-area .plan-textarea .plan-header .sub-title {
+        font-size: 10px;
+    }
+
+    /* .plans-area .plan-textarea .plan-header .sub-title {
         font-size: 10px;
     }
 
@@ -312,7 +325,7 @@
 
     .plan-note {
         font-size: 9px !important;
-    }
+    } */
 }
 
 @media (max-width: 480px) and (min-height: 450px) and (max-height: 614px) {
