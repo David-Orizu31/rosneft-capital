@@ -236,6 +236,7 @@
 
     .plans-area .plan-textarea .plan-header .title {
         font-size: 35px;
+        margin-bottom: 0px;
     }
 
     .plans-area .plan-textarea .plan-body .plan-info {
