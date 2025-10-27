@@ -3,6 +3,37 @@
     display: none !important;
 }  
 
+.font-10 {
+    font-size: 10px;
+}
+
+.font-11 {
+    font-size: 11px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-15 {
+    font-size: 15px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-17 {
+    font-size: 17px;
+}
 
 body [data-theme="dark"] .page-wrapper {
     background-color: #021E30 !important;
@@ -27,6 +58,7 @@ body [data-theme="dark"] p,
 body [data-theme="dark"] span,
 body [data-theme="dark"] a,
 body [data-theme="dark"] strong,
+body [data-theme="dark"] label,
 body [data-theme="dark"] b {
   color: #ffffff;
 }
@@ -62,8 +94,12 @@ body [data-theme="dark"] .custom-select {
     background: url(../../assets/images/custom-select-white.png) right 1.1rem center no-repeat !important;
 }
 
+body [data-theme="dark"] .custom-select:focus {
+    background: url(../../assets/images/custom-select-white.png) right 1.1rem center no-repeat !important;
+}
+
 body [data-theme="dark"] select option {
-    background: #0A3A52 !important;
+    background: #1c2d41 !important;
     color: white !important;
 }
 
@@ -114,4 +150,38 @@ body [data-theme="dark"] .pagination .page-item .page-link {
 
 body [data-theme="dark"] .pagination .page-item.active .page-link {
     color: white;
+}
+
+body [data-theme="dark"] .modal .modal-dialog .modal-content {
+    background: #1c2d41;
+}
+
+.plans-table {
+    font-size: 14px;
+}
+
+.plans-thead td {
+    background: linear-gradient(135deg, #34C759, #28A745) !important;
+}
+
+.plans-thead td .form-check .form-check-label {
+    color: white !important;
+}
+
+.plans-thead td .form-check .form-check-input:not(:checked) {
+    background: white !important;
+}
+
+/* .table-dark tbody .plans-thead td {
+    background: linear-gradient(135deg, #34C759, #28A745) !important;
+} */
+
+.page-item .page-link {
+    font-size: 13px !important;
+}
+
+@media (max-width: 480px) {
+    .plans-table {
+        font-size: 13px;
+    }
 }

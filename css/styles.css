@@ -1484,10 +1484,10 @@ strong {
 /***** End Other Page Styles *****/
 
 /***** Auth Page Styles *****/  
-.auth-bg {
+/* .auth-bg {
   position: relative;
   background: 
-    linear-gradient(rgba(52, 199, 89, 0.6), rgba(3, 43, 68, 0.7)), /* smoky green blend */
+    linear-gradient(rgba(52, 199, 89, 0.6), rgba(3, 43, 68, 0.7)),
     url('../img/investor-focus.jpg') no-repeat center;
   background-size: cover;
   min-height: 100vh;
@@ -1499,6 +1499,61 @@ strong {
   padding-right: 30px;
   min-height: 100vh;
   padding-bottom: 50px;
+} */
+
+.auth-area {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.auth-form .input-group .input-group-text {
+  border-radius: 0px;
+  color: white;
+  background-color: #34C759;
+  font-size: 13px;
+  padding: 8px 15px;
+  border: 1px solid #34C759;
+}
+
+.auth-form .input-group .form-control {
+  border-radius: 0px;
+  font-size: 13px;
+  padding: 8px 15px;
+}
+
+.auth-form .input-group .form-control:focus {
+  border-color: #34C759;
+  box-shadow: none;
+}
+
+.auth-form .input-group .form-select {
+  border-radius: 0px;
+  font-size: 13px;
+  padding: 8px 15px;
+}
+
+.auth-form .input-group .form-select:focus {
+  border-color: #34C759;
+  box-shadow: none;
+}
+
+.auth-form .form-check .form-check-input {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.auth-form .form-check .form-check-label {
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+.auth-form .form-check .form-check-label a {
+  font-size: 13px;
+  color: #34C759;
+  text-decoration: none;
+  line-height: 1.5em;
 }
 /***** End Auth Page Styles *****/
 

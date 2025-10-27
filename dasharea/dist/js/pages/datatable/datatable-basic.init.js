@@ -8,7 +8,9 @@
 /****************************************
  *       Basic Table                   *
  ****************************************/
-$('#zero_config').DataTable();
+$('#zero_config').DataTable({
+    order: [] // 👈 This prevents DataTables from sorting automatically
+});
 
 /****************************************
  *       Default Order Table           *

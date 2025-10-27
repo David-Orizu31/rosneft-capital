@@ -10780,7 +10780,8 @@ fieldset:disabled .btn {
 .nav-pills .nav-link {
     background: 0 0;
     border: 0;
-    border-radius: var(--bs-nav-pills-border-radius)
+    border-radius: var(--bs-nav-pills-border-radius);
+    color: #34C759;
 }
 
 .nav-pills .nav-link:disabled {
@@ -10792,7 +10793,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: var(--bs-nav-pills-link-active-color);
-    background-color: var(--bs-nav-pills-link-active-bg)
+    background-color: #34C759
 }
 
 .nav-fill .nav-item,
